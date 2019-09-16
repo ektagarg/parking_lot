@@ -25,7 +25,6 @@ func TestAddVehicle(t *testing.T) {
 	lenVehicles := len(p.Vehicles)
 	p.AddVehicle(v1)
 	assert.Equal(t, len(p.Vehicles), lenVehicles+1, "Length of vehicles is not increased")
-
 }
 
 //TestAddVehicles ... Add multiple vehicles to lot
