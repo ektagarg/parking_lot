@@ -5,9 +5,9 @@ When a car enters my parking lot, I want to have a ticket issued to the driver. 
 
 Due to government regulation, the system should provide me with the ability to find out:
 
-● Registration numbers of all cars of a particular colour.
-● Slot number in which a car with a given registration number is parked.
-● Slot numbers of all slots where a car of a particular colour is parked.
+● Registration numbers of all cars of a particular colour.<br />
+● Slot number in which a car with a given registration number is parked.<br />
+● Slot numbers of all slots where a car of a particular colour is parked.<br />
 
 ## System Interaction
 You can interact with the system via a simple set of commands which produce a specific output. Please take a look at the example below, which includes all the commands you need to support - they're self explanatory. 
@@ -17,9 +17,14 @@ The system should allow input in two ways.
 
 ### Example: File
 To install all dependencies, compile and run tests:
+```
 $ bin/setup
+```
+
 To run the code so it accepts input from a file:
+```
 $ bin/parking_lot file_inputs.txt
+```
 
 Input (contents of file):
 ```
