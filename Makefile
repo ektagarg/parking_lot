@@ -1,6 +1,6 @@
 install:
-		go build -o bin/main main.go
+		go build -o bin/main parking_lot.go
 run:
 		go run main.go
 test:
-		go test ./src/parking_lot/
+		./bin/run_functional_tests
