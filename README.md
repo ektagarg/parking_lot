@@ -16,10 +16,6 @@ The system should allow input in two ways.
 2) It should accept a filename as a parameter at the command prompt and read the commands from that file
 
 ### Example: File
-To install all dependencies, compile and run tests:
-```
-$ bin/setup
-```
 
 To run the code so it accepts input from a file:
 ```
@@ -73,7 +69,6 @@ Not found
 
 To install all dependencies, compile and run tests:
 ```
-$ bin/setup
 To run the program and launch the shell:
 $ bin/parking_lot
 Assuming a parking lot with 6 slots, the following commands should be run in sequence by typing them in at a prompt and should produce output as described below the command. Note that ​exit ​terminates the process and returns control to the shell.
@@ -125,4 +120,24 @@ $ slot_number_for_registration_number KA-01-HH-3141
 $ slot_number_for_registration_number MH-04-AY-1111
 Not found
 $ exit
+```
+
+### Executing the files
+
+1. Run executable for create parking lot and make operations using a text file:
+
+```
+./bin/parking_lot file_inputs.txt
+```
+
+2. Access shell and run commands:
+
+```
+./bin/parking_lot
+```
+
+3. Test the functionality:
+
+```
+./bin/run_functional_tests
 ```
